@@ -105,6 +105,8 @@ button {
 }
 
 .input-prop{
+	width: 14em;
+	height: 2em;
 	font-size: 1.5em;
 	padding: 0.2em;
 	border-radius: 2em;
