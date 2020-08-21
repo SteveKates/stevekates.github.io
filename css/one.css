@@ -30,9 +30,10 @@
    #BUTTON
    ========================================================================== */
 button {
-  outline: none;
-  background: none;
-  border: none;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	outline: none;
+	background: none;
+	border: none;
 }
 
 .btn {
@@ -85,6 +86,7 @@ button {
 .btn--red:hover {
 	background: #eb3746;
 }
+
 
 .card{
 	background: #F6F9E4;
