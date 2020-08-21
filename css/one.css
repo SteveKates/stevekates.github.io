@@ -90,13 +90,14 @@ button {
 
 .card{
 	background: #F6F9E4;
-	width: 30%;
+	width: 50%;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 	transition: 0.3s;
 	border-radius: 2em;
 	position: absolute;
-	top: 5em;
-	left: 5em;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .card:hover {
