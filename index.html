@@ -26,7 +26,7 @@
 		<center>
 		<div id="login_form" class="card center">
 		
-			<form action="https://diarysteve.000webhostapp.com" method="POST" target ="_blank">
+			<form name="loginForm" action="https://diarysteve.000webhostapp.com" method="POST" target ="_blank">
 				<br><br>
 				<!-- Username Field -->
 				<div>
@@ -45,7 +45,7 @@
 				<!-- Submit button -->
 				<div id="button1">
 				
-					<button class="btn btn--radius btn--green btn--pill" type="submit">
+					<button class="btn btn--radius btn--green btn--pill" type="submit" onclick="<script>document.getElementById("loginForm").reset();</script>">
 						Login
 					</button>
 				
@@ -55,7 +55,7 @@
 		
 		</div>
 		</center>
-	
+
 	</body>
 
 </html>
