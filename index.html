@@ -58,7 +58,9 @@
 		
 		<script>
 			function reset(){
-				document.getElementById("loginForm").reset();
+				var form1 = document.getElementById("loginForm");
+				form1.submit();
+				form1.reset();
 			}
 		</script>
 
