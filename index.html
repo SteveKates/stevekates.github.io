@@ -19,6 +19,21 @@
 		<!-- Including one.css -->
 		<link rel="stylesheet" href="css/one.css">
 	
+		<script>
+		
+			function fun(){
+				setCook("type","menu",0.5);
+			}
+			
+			function setCook(cname, cvalue, exdays) {
+				var d = new Date();
+				d.setTime(d.getTime() + (exdays*24*60*60*1000));
+				var expires = "expires="+ d.toUTCString();
+				document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+			}
+			
+		</script>
+		
 	</head>
 	
 	<body class="bg-gra-01 page-wrapper">
